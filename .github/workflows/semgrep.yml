@@ -21,4 +21,4 @@ jobs:
       image: returntocorp/semgrep
     steps:
     - uses: actions/checkout@v3
-    - run: semgrep ci --max-memory=1 --interfile-timeout=1
+    - run: semgrep ci
